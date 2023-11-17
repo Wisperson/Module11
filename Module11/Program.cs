@@ -97,6 +97,8 @@ namespace Module11
 
             Console.WriteLine($"Сотрудники, трудоустроенные после {selectedYear} года:");
             DisplayEmployeesAfterYear(employees, selectedYear);
+
+            Console.ReadKey();
         }
 
         private static string[] EnglishFirstNames = { "Alex", "Jordan", "Taylor", "Morgan", "Avery", "Casey", "Riley", "Jamie", "Cameron", "Jordan" };
